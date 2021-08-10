@@ -378,18 +378,23 @@ section .title::after{
     width: 70%;
 }
 
-/* teams section styling */
+/* project section styling */
 .teams .title::after{
     content: "my work";
 }
-.teams .carousel .card{
+.teams .carousel .card {
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
+    /* color:#fff; ; */
 }
+.teams .carousel .card a{
+    color:#fff;
+}
+
 .teams .carousel .card:hover{
     background: crimson;
 }
