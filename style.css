@@ -560,6 +560,7 @@ footer span a:hover{
 
 
 /* responsive media query start */
+/* if the width (x*y) x is less than 1104 to show in diffent screen size*/
 @media (max-width: 1104px) {
     .about .about-content .left img{
         height: 350px;
