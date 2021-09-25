@@ -110,6 +110,7 @@ section .title::after{
 .navbar .menu li{
     list-style: none;
     display: inline-block;
+    
 }
 .navbar .menu li a{
     display: block;
@@ -118,6 +119,7 @@ section .title::after{
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
+    color:#fff;
 }
 .navbar .menu li a:hover{
     color: crimson;
@@ -558,6 +560,7 @@ footer span a:hover{
 
 
 /* responsive media query start */
+/* if the width (x*y) x is less than 1104 to show in diffent screen size*/
 @media (max-width: 1104px) {
     .about .about-content .left img{
         height: 350px;
